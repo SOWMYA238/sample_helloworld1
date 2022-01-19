@@ -2,10 +2,7 @@ pipeline {
    agent any
    
    stages{
-     stage('Build'){
-        when {
-           branch 'node'
-        }
+      stage('Build'){
         steps {
             echo "welcome"
         }
